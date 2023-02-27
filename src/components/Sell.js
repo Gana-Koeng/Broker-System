@@ -1,4 +1,4 @@
-import "../style/sell.css";
+import "../style/Sell.css";
 
 function Sell() {
 return (
@@ -18,6 +18,11 @@ return (
 		<td>2</td>
 		<td>19</td>
 		<td>1111</td>
+		</tr>
+		<tr>
+		<td>3</td>
+		<td>25</td>
+		<td>11111</td>
 		</tr>
 		<tr>
 		<td>3</td>

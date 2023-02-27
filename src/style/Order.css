@@ -1,0 +1,133 @@
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid: 100% / auto auto;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.quality {
+  padding: 20px;
+ 
+}
+input[placeholder="Input quality..."]
+{
+    text-align: center;
+}
+input[placeholder="Input price..."]{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.submit > input {
+  color: white;
+
+  padding: 3px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 180px;
+  text-align: center;
+}
+.submit {
+  margin-top: 100px;
+}
+
+.sub-container {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+.sub-container .btn {
+  width: 100px;
+  display: inline-block;
+  border: 0;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+  font-family: inherit;
+  margin-left: 8px;
+}
+
+.active,
+.btn:hover {
+  background-color: #e41d1d;
+  color: white;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+.left {
+  margin-top: 20px;
+
+  border: 2px solid rgb(185, 176, 176);
+  margin-left: 20px;
+  border-radius: 8px;
+}
+.right {
+  margin-top: 20px;
+  border: 2px solid rgb(185, 176, 176);
+  margin-left: 20px;
+  border-radius: 8px;
+}
+.sub-buy {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+input[placeholder="Account No ..."]{
+
+    width: 130px;
+    border-radius: 3px;
+    text-align: center;
+}
+input[placeholder="Account Name..."]{
+    width: 130px;
+    border-radius: 3px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .title-balance{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 30px;
+  }

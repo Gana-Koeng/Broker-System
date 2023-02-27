@@ -1,33 +1,81 @@
+import "../style/Buy.css";
+import axios from "axios";
 
-import "../style/buy.css";
+//import React, { useEffect, useState } from "react";
 
-function Buy() {
-return (
-	<div className="App">
-	<table>
-		<tr>
-		<th>ID</th>
-		<th>Buy</th>
-		<th>Price</th>
-		</tr>
-		<tr>
-		<td>1</td>
-		<td>19</td>
-		<td>222</td>
-		</tr>
-		<tr>
-		<td>2</td>
-		<td>19</td>
-		<td>222</td>
-		</tr>
-		<tr>
-		<td>3</td>
-		<td>25</td>
-		<td>22222</td>
-		</tr>
-	</table>
-	</div>
-);
+function App() {
+ 
+  var data = "";
+
+  var config = {
+    method: "get",
+    url: "http://localhost:8080/api/broker-info",
+    headers: {},
+    data: data,
+  };
+
+  axios(config)
+    .then(function (response) {
+      console.log(JSON.stringify(response.data));
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
+	
+	
+
+
+  return (
+    <div className="App">
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Remain</th>
+          <th>Price</th>
+          <th>Remain</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>19</td>
+          <td>111</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>19</td>
+          <td>111</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>19</td>
+          <td>111</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>19</td>
+          <td>111</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>19</td>
+          <td>111</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>19</td>
+          <td>111</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>19</td>
+          <td>111</td>
+        </tr>
+		
+      </table>
+	  
+    </div>
+  );
+
 }
 
-export default Buy;
+export default App;

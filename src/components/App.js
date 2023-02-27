@@ -1,8 +1,16 @@
 
+//Pages 
+
 import Navbar from "./Navbar";
 import Sell from "./Sell";
 import Buy from "./Buy";
-import Select from "./Select";
+import Select from "./Order";
+import Login from "./Login";
+import SignUp from "./SignUp";
+import OrderSell from "./OrderSell";
+import OrderBuy from "./OrderBuy";
+import OrderChange from "./OrderChange";
+import OrderCancel from "./OrderCancel";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -16,6 +24,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        
         <Switch>
 
           <Route exact path="/">
@@ -23,9 +32,34 @@ function App() {
             <Buy />
           </Route>
 
-          <Route path="/Order">
+          <Route exact path="/Order">
             <Select />
           </Route>
+
+          <Route exact path="/Login">
+            <Login />
+          </Route>
+          
+          <Route exact path="/SignUp">
+            <SignUp />
+          </Route>
+          <Route exact path="/Order/Sell">
+            <OrderSell />
+          </Route>
+          <Route exact path="/Order/Buy">
+            <OrderBuy />
+          </Route>
+          <Route exact path="/Order/Change">
+            <OrderChange />
+          </Route>
+          <Route exact path="/Order/Cancel">
+            <OrderCancel />
+          </Route>
+
+
+           
+           
+         
           
         </Switch>
       </div>
