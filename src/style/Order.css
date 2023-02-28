@@ -1,5 +1,5 @@
 .container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(234, 230, 230, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
@@ -9,9 +9,11 @@
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid: 100% / auto auto;
+  grid: 100% / auto auto auto;
   grid-gap: 10px;
   padding: 20px;
+  margin-top: 80px;
+ 
 }
 
 .quality {
@@ -21,10 +23,12 @@
 input[placeholder="Input quality..."]
 {
     text-align: center;
+    width: 300px;
 }
 input[placeholder="Input price..."]{
-    margin-left: 20px;
+    
     text-align: center;
+    width: 300px;
 }
 
 .submit > input {
@@ -37,13 +41,14 @@ input[placeholder="Input price..."]{
   text-align: center;
 }
 .submit {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .sub-container {
   overflow: hidden;
   width: 100%;
   margin-top: 10px;
+
 }
 .sub-container .btn {
   width: 100px;
@@ -51,15 +56,15 @@ input[placeholder="Input price..."]{
   border: 0;
   padding: 12px;
   color: white;
+  font-weight: bold;
+
   font-size: 16px;
-  border-radius: 3px;
-  font-family: inherit;
   margin-left: 8px;
 }
 
 .active,
 .btn:hover {
-  background-color: #e41d1d;
+  background-color: #f01f34;
   color: white;
 }
 .title {
@@ -81,6 +86,10 @@ input[placeholder="Input price..."]{
   margin-left: 20px;
   border-radius: 8px;
 }
+.right-v2 {
+ 
+ 
+}
 .sub-buy {
   width: 400px;
   margin-left: auto;
@@ -88,18 +97,20 @@ input[placeholder="Input price..."]{
   margin-top: 5px;
 }
 
-input[placeholder="Account No ..."]{
+input[placeholder="Acc No ..."]{
 
     width: 130px;
     border-radius: 3px;
     text-align: center;
+    font-size: 14px;
 }
-input[placeholder="Account Name..."]{
-    width: 130px;
+input[placeholder="Acc Name..."]{
+    width: 150px;
     border-radius: 3px;
     margin-left: 20px;
     text-align: center;
 }
+
 
 #customers {
     font-family: Arial, Helvetica, sans-serif;

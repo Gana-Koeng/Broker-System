@@ -25,7 +25,7 @@ const Navbar = () => {
                   paddingLeft: 13,
                   textDecoration: "none",
                 }}
-                href="/list-order"
+                href="/ListOrder"
               >
                 List Order
               </a>
@@ -37,7 +37,7 @@ const Navbar = () => {
                   paddingLeft: 13,
                   textDecoration: "none",
                 }}
-                href="/list-trader"
+                href="/ListTrade"
               >
                 List Trade
               </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
                   paddingLeft: 13,
                   textDecoration: "none",
                 }}
-                href="/top-sell"
+                href="/Top"
               >
                 Top Sell
               </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
                   paddingLeft: 13,
                   textDecoration: "none",
                 }}
-                href="/top-buy"
+                href="/Top"
               >
                 Top Buy
               </a>
@@ -114,9 +114,9 @@ const Navbar = () => {
         <li>
           <a
             style={{ color: "white", paddingLeft: 13, textDecoration: "none" }}
-            href="/record"
+            href="/RecentTrade"
           >
-            Record Trade
+            Recent Trade
           </a>
         </li>
 

@@ -2,8 +2,12 @@
 //Pages 
 
 import Navbar from "./Navbar";
-import Sell from "./Sell";
-import Buy from "./Buy";
+import Home from "./Home";
+import RecentTrade from "./RecentTrade";
+import Top from "./Top";
+import ListOrder from "./ListOrder";
+import ListTrade from "./ListTrade";
+
 import Select from "./Order";
 import Login from "./Login";
 import Register from "./Register";
@@ -28,8 +32,8 @@ function App() {
         <Switch>
 
           <Route exact path="/">
-            <Sell />
-            <Buy />
+            <Home />
+            
           </Route>
 
           <Route exact path="/Order">
@@ -61,13 +65,19 @@ function App() {
           <Route exact path="/Order/Cancel">
             <OrderCancel />
           </Route>
-
-
-           
-           
-         
-          
-        </Switch>
+          <Route exact path="/RecentTrade">
+            <RecentTrade />
+          </Route>
+          <Route exact path="/Top">
+            <Top />
+          </Route>                
+          <Route exact path="/ListOrder">
+            <ListOrder />
+          </Route>                
+          <Route exact path="/ListTrade">
+            <ListTrade />
+          </Route>                
+       </Switch>
       </div>
     </Router>
   );

@@ -8,13 +8,15 @@
   
   nav {
 	text-align: center;
+
 	
   }
   
   .menu {
 	display: inline-block;
-	margin-left: 0;
-	padding-right: 0;
+	margin-left: auto;
+	padding-right: auto;
+	
 
 	
   }

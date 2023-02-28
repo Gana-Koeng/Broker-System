@@ -13,13 +13,13 @@ function App() {
             type="text"
             id="No"
             name="No"
-            placeholder="Account No ..."
+            placeholder="Acc No ..."
           />
           <input
             type="text"
             id="name"
             name="name"
-            placeholder="Account Name..."
+            placeholder="Acc Name..."
           />
         </form>
       </div>

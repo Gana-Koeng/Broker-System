@@ -1,4 +1,4 @@
-import "../style/Order.css";
+// import "../style/Order.css";
 
 import BuyForm from "./BuyForm";
 import Buy from "./Buy";
