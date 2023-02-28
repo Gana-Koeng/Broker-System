@@ -71,7 +71,7 @@ function App() {
 
       </table>
       <div className="submit">
-        <input type="submit" value="Make Order->>" />
+        <button className="button">Make Order</button>
       </div>
     </div>
 

@@ -8,22 +8,21 @@ function MyForm() {
   return (
     <div className="App">
       <div className="container">
-      <div className="right">
-      <div className="title">
-          List All Data
-        </div>
-      <Buy />
-	  
-    </div>
-    <div className="left">
+        <div className="right">
+          <div className="title">
+            List All Data
+          </div>
+          <Buy />
 
-      <div className="title">
+        </div>
+   
+     
+        <div className="left">
+        <div className="title">
           Choose Your Option
         </div>
         <div className="sub-container">
           <div id="myDIV">
-
-
             <button class="btn"> <a
               style={{
                 color: "white",
@@ -34,7 +33,7 @@ function MyForm() {
             >
               Sell
             </a></button>
-            <button class="btn active"><a
+            <button class="btn"><a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -45,9 +44,9 @@ function MyForm() {
             >
               Buy
             </a></button>
-           
-           
-            <button class="btn"><a
+
+
+            <button class="btn active"><a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -71,13 +70,10 @@ function MyForm() {
             <BuyForm />
           </div>
         </div>
-        {/* <div className="submit">
-            <input type="submit" value="Make Order->>" />
-          </div> */}
+      </div>
       </div>
     </div>
-      
-    </div>
+
   );
 }
 

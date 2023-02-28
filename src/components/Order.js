@@ -1,7 +1,6 @@
-import "../style/Order.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Sell from "./Sell";
-import React, { useState } from 'react';
+// import "../style/Order.css";
+
+import React from 'react';
 function MyForm() {
 
   return (
@@ -75,29 +74,7 @@ function MyForm() {
               />
             </form>
           </div> */}
-        <div className="sub-container">
-          <div id="myDIV">
-
-
-            <button class="btn"> <a
-              style={{
-                color: "white",
-                paddingLeft: 13,
-                textDecoration: "none",
-              }}
-              href="/Order/Sell"
-            >
-              Sell
-            </a></button>
-            <button class="btn active">Buy</button>
-            <button class="btn">Change</button>
-            <button class="btn">Cancel</button>
-
-          </div>
-        </div>
-        <div className="submit">
-          <input type="submit" value="Make Order->>" />
-        </div>
+    
         </div>
       </div>
     </div>

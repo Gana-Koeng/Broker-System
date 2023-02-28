@@ -1,21 +1,23 @@
 import "../style/Order.css";
+import "../style/SignUp.css"
 
 import BuyForm from "./BuyForm";
 import Buy from "./Buy";
 
-function MyForm() {
+function OrderSell() {
 
   return (
     <div className="App">
       <div className="container">
-      <div className="right">
+      <div className="left">
       <div className="title">
           List All Data
-        </div>
-      <Buy />
+       
+       </div>
+       <Buy />
 	  
     </div>
-    <div className="left">
+    <div className="right">
 
       <div className="title">
           Choose Your Option
@@ -24,7 +26,7 @@ function MyForm() {
           <div id="myDIV">
 
 
-            <button class="btn"> <a
+            <button class="btn active"> <a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -34,7 +36,7 @@ function MyForm() {
             >
               Sell
             </a></button>
-            <button class="btn active"><a
+            <button class="btn "><a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -68,12 +70,10 @@ function MyForm() {
             >
               Cancel
             </a></button>
-            <BuyForm />
+            
           </div>
         </div>
-        {/* <div className="submit">
-            <input type="submit" value="Make Order->>" />
-          </div> */}
+<BuyForm />
       </div>
     </div>
       
@@ -81,4 +81,4 @@ function MyForm() {
   );
 }
 
-export default MyForm;
+export default OrderSell;

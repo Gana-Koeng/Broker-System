@@ -6,19 +6,19 @@ import Sell from "./Sell";
 import Buy from "./Buy";
 import Select from "./Order";
 import Login from "./Login";
-import SignUp from "./SignUp";
+import Register from "./Register";
 import OrderSell from "./OrderSell";
 import OrderBuy from "./OrderBuy";
 import OrderChange from "./OrderChange";
 import OrderCancel from "./OrderCancel";
+import Withdraw from "./Withdraw";
+import Deposit from "./Deposit";
+
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from "react";
 
 function App() {
-  // const title = "Hello Crush, Can we date, Lin?";
-  // const likes = 50;
-  // const link = "https://www.google.com";
-  //const person = { name: 'Phalin', age: '20'}
 
   return (
     <Router>
@@ -35,14 +35,20 @@ function App() {
           <Route exact path="/Order">
             <Select />
           </Route>
-
+          <Route exact path="/Withdraw">
+            <Withdraw />
+          </Route>
+          <Route exact path="/Deposit">
+            <Deposit />
+          </Route>
           <Route exact path="/Login">
-            <Login />
-          </Route>
-          
-          <Route exact path="/SignUp">
-            <SignUp />
-          </Route>
+          <div id="root"></div>
+              <Login />
+            </Route>
+            <Route exact path="/Register">
+          <div id="root"></div>
+              <Register />
+            </Route>
           <Route exact path="/Order/Sell">
             <OrderSell />
           </Route>

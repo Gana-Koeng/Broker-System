@@ -1,5 +1,5 @@
-import "../style/Sell.css";
-
+import "../style/sell.css";
+import React from "react";
 function Sell() {
 return (
 	<div className="App">

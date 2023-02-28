@@ -82,7 +82,35 @@ const Navbar = () => {
             Make Order
           </a>
         </li>
-
+        <li>
+          Balance
+          <ul class="sub-menu">
+            <li>
+              <a
+                style={{
+                  color: "white",
+                  paddingLeft: 13,
+                  textDecoration: "none",
+                }}
+                href="/Withdraw"
+              >
+                Withdraw
+              </a>
+            </li>
+            <li>
+              <a
+                style={{
+                  color: "white",
+                  paddingLeft: 13,
+                  textDecoration: "none",
+                }}
+                href="/Deposit"
+              >
+                Deposit
+              </a>
+            </li>
+          </ul>
+        </li>
         <li>
           <a
             style={{ color: "white", paddingLeft: 13, textDecoration: "none" }}
@@ -108,30 +136,7 @@ const Navbar = () => {
         <li>
           Setting
           <ul class="sub-menu">
-            <li>
-              <a
-                style={{
-                  color: "white",
-                  paddingLeft: 13,
-                  textDecoration: "none",
-                }}
-                href="/Deposit"
-              >
-                Deposit
-              </a>{" "}
-            </li>
-            <li>
-              <a
-                style={{
-                  color: "white",
-                  paddingLeft: 13,
-                  textDecoration: "none",
-                }}
-                href="/withdraw"
-              >
-                Withdraw
-              </a>{" "}
-            </li>
+           
             <li>
               <a
                 style={{

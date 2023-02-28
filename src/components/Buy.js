@@ -1,6 +1,6 @@
-import "../style/Buy.css";
+import "../style/buy.css";
 import axios from "axios";
-
+import React from "react";
 //import React, { useEffect, useState } from "react";
 
 function App() {

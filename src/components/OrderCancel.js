@@ -34,7 +34,7 @@ function MyForm() {
             >
               Sell
             </a></button>
-            <button class="btn active"><a
+            <button class="btn"><a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -57,7 +57,7 @@ function MyForm() {
             >
               Change
             </a></button>
-            <button class="btn"><a
+            <button class="btn active"><a
               style={{
                 color: "white",
                 paddingLeft: 13,
