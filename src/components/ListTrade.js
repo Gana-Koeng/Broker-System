@@ -4,8 +4,30 @@ import React from "react";
 //import React, { useEffect, useState } from "react";
 
 function App() {
+ 
+  var data = "";
+
+  var config = {
+    method: "get",
+    url: "http://localhost:8080/api/broker-info",
+    headers: {},
+    data: data,
+  };
+
+  axios(config)
+    .then(function (response) {
+      console.log(JSON.stringify(response.data));
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
+	
+	
+
+
   return (
-    <div className="App">
+    <div className="Buy">
       <table>
         <tr>
           <th>ID</th>

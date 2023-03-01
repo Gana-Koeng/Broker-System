@@ -2,7 +2,7 @@ import "../style/sell.css";
 import React from "react";
 function Sell() {
 return (
-	<div className="App">
+	<div className="Sell">
 	<table>
 		<tr>
 		<th>ID</th>

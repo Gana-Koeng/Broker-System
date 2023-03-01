@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="Buy">
       <table>
         <tr>
           <th>ID</th>

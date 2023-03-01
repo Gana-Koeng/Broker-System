@@ -48,8 +48,8 @@ function App() {
 
       <table id="customers">
         <tr>
-          <th>Account No</th>
-          <th>Account Name</th>
+          <th>Acc No.</th>
+          <th >Name</th>
           <th>Quality</th>
         </tr>
         <tr>

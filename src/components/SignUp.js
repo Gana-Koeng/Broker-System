@@ -68,7 +68,7 @@ export default function Form() {
     };
 
     return (
-        <div className="form">
+        <div className="form-login">
         
                 <p>User Registration</p>
          

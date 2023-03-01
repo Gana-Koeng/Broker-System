@@ -1,4 +1,4 @@
-table {
+.Buy > table {
   border: 2px solid rgb(33, 34, 33);
   width: 300px;
   height: 100px;
@@ -10,10 +10,13 @@ table {
  
 }
 
-th {
+.Buy > th {
   border-bottom: 2px solid black;
 }
 
-td {
+.Buy >td {
   text-align: center;
+}
+.Buy{
+  height:1000px ;
 }

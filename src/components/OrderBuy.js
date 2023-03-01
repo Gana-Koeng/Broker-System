@@ -1,7 +1,7 @@
 import "../style/SignUp.css";
 
 import BuyForm from "./BuyForm";
-import Buy from "./Buy";
+import ShowData from "./ShowData";
 
 function MyForm() {
   return (
@@ -9,7 +9,7 @@ function MyForm() {
       <div className="container">
         <div className="right">
           <div className="title">List All Data</div>
-          <Buy />
+          <ShowData />
         </div>
         <div className="left">
           <div className="title">Choose Your Option</div>
@@ -68,9 +68,21 @@ function MyForm() {
               <BuyForm />
             </div>
           </div>
-        </div>
+        </div> 
+        <div className="right-v2">
+        <div class="title">Base Price</div>
+              <div className="sub-title">You can choose price between: </div>
+              
+              <div className="Max-min">
+                <p>Max Price: 5500</p> 
+                <p>Base Price: 5000</p> 
+                <p>Min Price: 4500</p> 
+              </div>
+              
+
+          </div>
       </div>
-      <div className="right-v2"><Buy /></div>
+     
     </div>
   );
 }

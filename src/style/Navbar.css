@@ -4,10 +4,15 @@
 	box-sizing: border-box;
   }
   
-  
-  
-  nav {
-	text-align: center;
+
+  .navbar-main {
+	
+	/* background-color: #333; */
+		position: fixed;
+	  	left: 50%;
+		top: 0;
+	  	margin-left: -570px;
+
 
 	
   }
@@ -15,8 +20,9 @@
   .menu {
 	display: inline-block;
 	margin-left: auto;
-	padding-right: auto;
-	
+	margin-right: auto;
+
+
 
 	
   }
@@ -27,7 +33,7 @@
 	width: 140px;
 	height: 40px;
 	line-height: 40px;
-	background: rgba(46, 175, 134, 0.8);
+	background: #01d28e;
 	cursor: pointer;
 	font-size: 17px;
 	
@@ -42,7 +48,7 @@
   
   .sub-menu li {
 	font-size: 14px;
-	background: rgba(46, 175, 134, 0.8);
+	background: #01d28e;
 	padding: 6px 0;
 	color: white;
 	border-bottom: 1px solid rgba(255,255,255, 0.2);

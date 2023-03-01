@@ -1,19 +1,21 @@
 import React from 'react';
 
-
-function Deposit() {
+function Withdraw (){
     return (
-        <><nav className="navbar" style={{ border: '5px solid yellow', backgroundColor: 'pink' }}>
-           
-                <h3>Balance: 500,000$</h3>
-                <div className="links">
-                    <a className='account' href="/Withdraw">Withdraw</a>
-                </div>
+        <div style={{height:"1000px"}}>
             
-        </nav><div className='center' style={{ textAlign: 'center', display: 'block', border: '5px solid yellow', backgroundColor: 'pink' }}>
-                Balnace = 0 <br />
-                Deposit = balance + input
-            </div></>
+
+      
+        <><nav className="navbar" style={{cursor:'alias', border: '5px solid #01d28e', backgroundColor: 'pink', marginTop:'120px'   }}>
+            <h3>Balance: 500,000$</h3>
+            <div className="links" >
+                <a className='account' href="/Deposit">Deposit</a>
+            </div>
+        </nav><div className='center' style={{textAlign: 'center', display:'block', border:'5px solid #01d28e', backgroundColor:'pink', marginLeft: 'auto', marginRight: 'auto', width: '600px', marginTop: '20px'}}>
+               <p>Balnace = 0 <br />
+                Withdraw = balance - input</p> 
+                <input type="button" className='pointer' style={{marginTop: '20px',cursor:'pointer'}} value="Sumbit" />
+            </div></>   </div>
     )
 }
-export default Deposit;
+export default Withdraw;

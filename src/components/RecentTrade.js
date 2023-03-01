@@ -1,20 +1,20 @@
 import "../style/Home.css";
-import Buy from "./Buy";
+import Sell from "./Sell";
 
 function Homepage() {
     return (
        <div className='Parents'>
             <div className='above-left'>
-                 < Buy />
+                 < Sell />
             </div>
             <div className='above-right'>
-                 < Buy />
+                 < Sell />
             </div>
             <div className='bottom-left'>
-                 < Buy />
+                 < Sell />
             </div>
             <div className='bottom-right'>
-                 < Buy />
+                 < Sell />
             </div>
        </div>
     )

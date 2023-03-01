@@ -1,18 +1,20 @@
-table {
+.Sell > table {
   border: 2px solid rgb(43, 208, 43);
-  width: 600px;
-  height: 100px;
+  width: 500px;
+  height: 200px;
   text-align: center;
   justify-items: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  margin-left: -150px;
 }
 
-th {
+.Sell > th {
   border-bottom: 1px solid black;
+
 }
 
-td {
+.Sell > td {
   text-align: center;
 }

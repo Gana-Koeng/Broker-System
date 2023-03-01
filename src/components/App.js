@@ -2,6 +2,7 @@
 //Pages 
 
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import Home from "./Home";
 import RecentTrade from "./RecentTrade";
 import Top from "./Top";
@@ -78,6 +79,7 @@ function App() {
             <ListTrade />
           </Route>                
        </Switch>
+       <Footer />
       </div>
     </Router>
   );
