@@ -1,11 +1,12 @@
 // import logo from '../logo.jpg';
+import React from "react";
 import "../style/Navbar.css";
 // import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar-main">
-      <ul class="menu">
+      <ul className="menu">
         <li>
           <a
             style={{ color: "white", paddingLeft: 13, textDecoration: "none" }}
@@ -17,7 +18,7 @@ const Navbar = () => {
 
         <li>
           Stock
-          <ul class="sub-menu">
+          <ul className="sub-menu">
             <li>
               <a
                 style={{
@@ -46,7 +47,7 @@ const Navbar = () => {
         </li>
         <li>
           Top
-          <ul class="sub-menu">
+          <ul className="sub-menu">
             <li>
               <a
                 style={{
@@ -84,7 +85,7 @@ const Navbar = () => {
         </li>
         <li>
           Balance
-          <ul class="sub-menu">
+          <ul className="sub-menu">
             <li>
               <a
                 style={{
@@ -135,7 +136,7 @@ const Navbar = () => {
 
         <li>
           Setting
-          <ul class="sub-menu">
+          <ul className="sub-menu">
            
             <li>
               <a
@@ -144,7 +145,7 @@ const Navbar = () => {
                   paddingLeft: 13,
                   textDecoration: "none",
                 }}
-                href="/edit-profile"
+                href="/Profile"
               >
                 Edit Profile
               </a>{" "}

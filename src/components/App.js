@@ -8,7 +8,7 @@ import RecentTrade from "./RecentTrade";
 import Top from "./Top";
 import ListOrder from "./ListOrder";
 import ListTrade from "./ListTrade";
-
+import Profile from "./Profile";
 import Select from "./Order";
 import Login from "./Login";
 import Register from "./Register";
@@ -77,7 +77,10 @@ function App() {
           </Route>                
           <Route exact path="/ListTrade">
             <ListTrade />
-          </Route>                
+          </Route>   
+          <Route exact path="/Profile">
+            <Profile />
+          </Route>               
        </Switch>
        <Footer />
       </div>
